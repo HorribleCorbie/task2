@@ -24,7 +24,7 @@ namespace task2
                     case 5: five++; break;
                 }
             }
-            string message = "Кол-во 5: " + five + "\nКол-во 4: " + four + "\nКол-во 3: " + three + "\nКол-во 2: " + two;
+            string message = $"Кол-во 5: {five}\nКол-во 4: {four}\nКол-во 3: {three}\nКол-во 2: {two}";
             return message;
         }
     }
